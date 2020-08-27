@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 const db_url =
-  "mongodb+srv://admin:admin@cluster0.zx62g.mongodb.net/<dbname>?retryWrites=true&w=majority";
+  "";
 
 const dbconn = async () => {
   await mongoose
